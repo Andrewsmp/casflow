@@ -11,6 +11,31 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    div.logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            position: absolute;
+            margin-right: 2rem;
+        }
+
+        span {
+            position: relative;
+            color: var(--shape);
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-left: 2rem;
+        }
+    }
+
     button {
         font-size: 1rem;
         color: #FFF;
