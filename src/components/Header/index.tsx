@@ -12,8 +12,8 @@ export function Header({ onOpenNewTransactionModal }: HeaderProps) {
             <Content>
                 <div className="logo">
                     <div>
-                        <img className="logo-back" src={logoImg} />
-                        <img className="logo-front" src={totalImg} />
+                        <img className="logo-back" src={logoImg}  alt="logo"/>
+                        <img className="logo-front" src={totalImg} alt="logo" />
                     </div>
                     <span>Cash Flow</span>
                 </div>
